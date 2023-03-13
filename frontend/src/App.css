@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.dropzone {
+  border: 1px solid #6c757d;
+  height: 80px;
+  place-items: center;
+  line-height: 75px;
+}
+
+#split-parent{
+  display: flex;
+}
+
+#pdf-div{
+  flex-grow: 1;
+  height: 800px;
+}
+
+#left-pane{
+  border: 1px solid #6c757d;
+}
+
+#right-pane{
+  text-align:left;
+}
+
+.qanda{
+  border:solid 1px #d5d5d5;
+}
+
+#extract-button{
+  margin-top: 20px;
+}
+
+.row {
+  margin-top: 20px;
+}
